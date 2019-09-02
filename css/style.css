@@ -1,0 +1,2484 @@
+/*
+
+ * CSS com estilo específico do tema
+ *
+ * @Autores
+ *
+ * - Danilo Sartorelli Barbato
+ * - Djeison Possamai 
+ * - Thiago Garcia Tamosauskas
+ * - Fernando Henrique Zancopé
+ *
+ * @Referencias
+ *
+ * Lista de padrões, convenções e boas praticas CSS que devem ser seguidas.
+ * https: //github.com/necolas/idiomatic-css/tree/master/translations/pt-BR
+ *
+ * Plugins para ordenar os atributos de CSS.
+ * http://csscomb.com/
+ *
+ * Validador de CSS do W3C.
+ * \http://jigsaw.w3.org/css-validator/
+ * 
+ * Cores
+
+
+/* ==========================================================================
+   Geral
+   ========================================================================== */
+
+body.template-inscricoeseadenem #content-core .inscrevase
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+body.template-inscricoeseadenem #content-core .inscrevase a
+{
+    padding: 0;
+}
+body.template-inscricoeseadenem #content-core .inscrevase span.inscrevaseicone
+{
+    display: inline-block;
+    float: right;
+    margin-left: 5px;
+    padding: 10px;
+    background: #e19e9b;
+}
+
+body.template-inscricoeseadenem #content-core .inscrevase:hover span.inscrevaseicone
+{
+    background: #c96a66;
+}
+
+.textoPolo .inscrevase
+{
+    max-height: 36px;
+    width: 100%;
+}
+.inscricaoPolo .inscrevase.botaointernocurso
+{
+    float: left;
+    margin-bottom : 0;
+    max-width: 170px;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos #content .inscrevase a:hover
+{
+    color: #FFF !important;
+}
+.portletStaticText.portlet-static-ficou-interessado #instituicao,
+.portletStaticText.portlet-static-ficou-interessado #modalidade
+{
+    display: none;
+}
+
+#content .inscrevase.botaointernocurso {
+width:100%;
+height: 35px;
+}
+
+#content .inscrevase.botaointernocurso a{
+    padding: 10px 20px;
+    border: none;
+}
+
+#main-content #instituicao,
+#main-content #modalidades,
+#main-content input#modalidade
+{
+    display: none;
+}
+/* template agradecimento */
+body.template-agradecimentoead .inscrevase.tksLead,
+body.template-inscricoesead .inscrevase.tksLead
+{
+    display: inline-block;
+    float: none;
+
+    width: 290px;
+    margin-top: 0;
+    margin-right: 30px;
+}
+body.template-agradecimentoead #content .inscrevase.tksLead a:hover,
+body.template-inscricoesead #content .inscrevase.tksLead a:hover
+{
+    color: #fff !important;
+}
+
+body.template-agradecimentoead .inscrevase.tksLead.firBt,
+body.template-inscricoesead .inscrevase.tksLead.firBt
+{
+    width: 150px;
+}
+
+body.template-agradecimentoead .inscrevase.tksLead.secBt,
+body.template-inscricoesead .inscrevase.tksLead.secBt
+{
+    width: 250px;
+}
+
+/* novo padrao ead */
+
+
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos #detalhestabela
+{
+    clear: both;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos table.plain tr .xl67,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos table.plain tr .xl68,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos table.plain tr .xl73,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos table.plain tr .xl65,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos table.plain tr .xl72,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos table.plain tr .xl74
+{
+    margin: 0 auto;
+
+    text-align: center !important;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos table.plain
+{
+    /* float: right;*/
+    width: 100%;
+}
+
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos #content a:hover
+{
+    text-decoration: none !important;
+
+    color: #07a7f8 !important;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-cursos #content .vpolo a
+{
+    letter-spacing: 0;
+
+    color: #07a7f8 !important;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-cursos #content .vpolo a:hover
+{
+    color: #000 !important;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-cursos #content h1.documentFirstHeading,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-cursos #content h3
+{
+    color: #e1504a;
+}
+
+/* fim novo padrao ead */
+
+
+
+
+
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste #detalhestabela
+{
+    clear: both;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste table.plain tr .xl67,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste table.plain tr .xl68,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste table.plain tr .xl73,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste table.plain tr .xl65,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste table.plain tr .xl72,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste table.plain tr .xl74
+{
+    margin: 0 auto;
+
+    text-align: center !important;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste table.plain
+{
+    /* float: right;*/
+    width: 100%;
+}
+
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-polos-polos-teste #content a:hover
+{
+    text-decoration: none !important;
+
+    color: #07a7f8 !important;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-cursos-cursos-teste-administracao #content .vpolo a
+{
+    letter-spacing: 0;
+
+    color: #07a7f8 !important;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-cursos-cursos-teste-administracao #content .vpolo a:hover
+{
+    color: #000 !important;
+}
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-cursos-cursos-teste-administracao #content h1.documentFirstHeading,
+body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-cursos-cursos-teste-administracao #content h3
+{
+    color: #e1504a;
+}
+
+
+.section-graduacao-a-distancia.subsection-cursos.subsection-cursos-cursos table.plain, .section-graduacao-a-distancia.subsection-cursos table.plain {
+    width: 100%;
+}
+
+table.plain td {
+    padding: 10px !important;
+}
+
+table.plain td a {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+body > iframe
+{
+    display: block;
+    overflow: hidden;
+
+    height: 0;
+}
+
+body.template-polo_view.subsection-polos-cariacica div.map_canvas
+{
+    display: none;
+}
+body.template-polo_view.subsection-polos-cidade-ocidental div.map_canvas
+{
+    display: none;
+}
+/* menu mobile dos cursos */
+
+div:hover#btnav ul li a span
+{
+    padding: 0;
+}
+
+
+li.scdmenu
+{
+    background: #999;
+}
+
+/* live search */
+
+div#LSResult
+{
+    display: none !important;
+}
+
+#navigation,
+#navigationmobile
+{
+    display: none;
+}
+
+/*   topo   */
+/*#logo a.logoead
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+
+    border-left: 1px solid #e9f0f3;
+}*/
+
+span.educadist {
+
+    }
+#logo a.logoead {
+    display: block;
+    width: 99.5%;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0 0;
+    padding: 5px 0;
+    color: #1ea7f8;
+    border: solid 1px #1ea7f8;
+    border-bottom: none;
+}
+#logo a
+{
+    float: left;
+}
+.hiddenStructure
+{
+    display: none;
+}
+
+.banner-central
+{
+    display: none;
+}
+.banner-central
+{
+    display: none;
+}
+
+#btnav
+{
+    z-index: 20;
+}
+.m-accessibilidade
+{
+    display: none;
+}
+/*div#logo a img
+{
+    display: block;
+
+    width: 125px;
+    margin: 0 0 0 5%;
+    padding-top: 20px;
+}*/
+nav i
+{
+    position: absolute;
+    top: 11px;
+    right: 20px;
+}
+div#logo a.logoumesp
+{
+   padding: 0 0.8em;
+}
+
+#logo a.logoead img {
+    display: none;
+}
+
+#main-header
+{
+    position: relative;
+    /*top: -3px;
+    height: 75px;*/
+    background: #f8f8f8 !important;
+}
+
+
+/*Menu*/
+
+#main-navigation li a
+{
+    font-size: 1.2em;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+#main-navigation li a
+{
+    color: #d8c207;
+}
+
+/* Conteúdos gerais */
+.template-folder_summary_view p.tileBody,
+.template-folder_summary_view p.tileFooter
+{
+    display: none;
+}
+
+
+.template-folder_summary_view h2.tileHeadline
+{
+    margin-bottom: 10px;
+    padding: 10px;
+
+    background: #f8f8f8;
+}
+
+
+
+
+.template-folder_summary_view h2.tileHeadline a
+{
+    color: #000 !important;
+}
+.portletContent a:hover
+{
+    text-decoration: underline;
+}
+#content a:hover
+{
+    text-decoration: underline;
+}
+
+.portletStaticText.portlet-static-navegacao ul > li
+{
+    padding-bottom: 2px;
+
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #48c5db;
+}
+.portletStaticText.portlet-static-navegacao ul > li > a
+{
+    display: inline-block;
+
+    width: 100%;
+
+    color: #251c6f !important;
+}
+
+.portletStaticText.portlet-static-navegacao ul > li a:hover
+{
+    text-decoration: underline;
+}
+
+.portletStaticText.portlet-static-navegacao ul ul
+{
+    margin-top: 5px;
+}
+
+.portletStaticText.portlet-static-navegacao ul > li > ul > li
+{
+    border: none;
+}
+
+.portletStaticText.portlet-static-navegacao ul > li > ul > li a
+{
+    margin-left: 20px;
+
+    text-transform: none;
+
+    color: #000 !important;
+}
+
+/* ==========================================================================
+       Notícia
+       ========================================================================== */
+/* Título de notícias */
+h1.documentFirstHeading
+{
+    font-size: 1.7em;
+    line-height: 1.4em;
+
+    color: #404040;
+}
+/* Imagem e Legenda */
+figure.newsImageContainer
+{
+    position: relative;
+
+    float: left;
+
+    margin: 0 10px 10px 0;
+}
+.newsImageContainer figcaption
+{
+    font-size: .8em;
+    font-weight: bold;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    min-height: 19px;
+    padding: 5px;
+
+    background-color: rgba(255, 255, 255, .7);
+}
+#content .newsImageContainer a
+{
+    color: #000;
+}
+#content .newsImageContainer a:hover
+{
+    color: #333 !important;
+}
+/* Conteúdo */
+div#content-core
+{
+    margin-bottom: 40px;
+
+    color: #414141;
+}
+div#plone-document-byline
+{
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+       Cabeçalho do Portal
+       ========================================================================== */
+/*div#logo
+{
+    margin-bottom: 3px;
+    margin-left: -4px;
+}*/
+
+#main-navigation li a
+{
+    color: #fff;
+}
+#main-navigation li:hover
+{
+    background: #e1504a;
+}
+#main-navigation li:hover a
+{
+    color: #fff;
+}
+ul.actionMenu
+{
+    display: none;
+}
+
+/* Menu global */
+
+#navigation
+{
+    display: inline;
+
+    margin: 0;
+
+    list-style: none;
+
+    text-align: left;
+}
+
+#navigation ul li
+{
+    position: relative;
+
+    display: inline-block;
+
+    cursor: pointer;
+    -webkit-transition: all .2s;
+       -moz-transition: all .2s;
+        -ms-transition: all .2s;
+         -o-transition: all .2s;
+            transition: all .2s;
+}
+#navigation li.item-nav
+{
+    position: relative;
+
+    color: #fff;
+}
+#navigation li.item-nav ul
+{
+    display: none;
+    visibility: hidden;
+
+    padding: 0;
+}
+#navigation li.item-nav ul li
+{
+    display: block;
+    float: none;
+
+    padding: 3px 10px;
+
+    border-right: none;
+}
+
+#navigation li.item-nav span
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#content .cover-collection-tile.tile-content
+{
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+
+.cover-collection-tile.tile-content h2 a
+{
+    font-size: .75em;
+
+    display: inline-block;
+
+    width: 100%;
+    padding-bottom: 5px;
+
+    color: #000 !important;
+    border-bottom: 1px dashed #000 !important;
+}
+#content .cover-collection-tile.tile-content h2
+{
+    letter-spacing: 0;
+}
+#content .cover-collection-tile.tile-content h2 a:hover
+{
+    text-decoration: none !important;
+
+    color: #07a7f8 !important;
+}
+
+.cover-collection-tile.tile-content .tile-footer
+{
+    font-size: 1.2em;
+
+    padding-top: 10px;
+
+    text-align: left;
+}
+
+.cover-collection-tile.tile-content .tile-footer a
+{
+    font-weight: bold;
+
+    text-decoration: none !important;
+
+    color: #e1504a !important;
+    border: none !important;
+}
+
+.tile-footer a::before
+{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+
+    display: inline-block;
+
+    padding-right: 5px;
+
+    content: '\f055';
+
+    color: #e1504a;
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#content .tile-footer a:hover::before,
+#content .tile-footer a:hover
+{
+    color: #07a7f8 !important;
+}
+
+body.template-view.portaltype-collective-cover-content.site-ead.section-ead #content .cover-collection-tile
+{
+    margin-top: -10px !important;
+}
+
+div#footerlocal
+{
+    display: none;
+}
+
+
+/* ==========================================================================
+       Rodape do Portal
+       ========================================================================== */
+.redes span
+{
+    display: none;
+}
+
+.redes a
+{
+    font-size: 1.3em;
+
+    color: #357dbe !important;
+}
+.redes a:hover
+{
+    color: #e1504a !important;
+}
+.redes a .fa
+{
+    width: 32px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 6px 0;
+
+    text-align: center;
+
+    border: 1.5px solid;
+    border-radius: 50%;
+}
+.redes
+{
+    text-align: center;
+}
+.footerambienteecontato a
+{
+    font-size: .9em;
+
+    padding: 0 15px;
+
+    color: #fff !important;
+}
+.footerambienteecontato
+{
+    margin-bottom: 10px;
+    padding: 10px 0;
+
+    text-align: center;
+
+    color: #fff;
+    background: #357dbe;
+}
+div#footerRights
+{
+    clear: both;
+
+    padding: 10px 0;
+
+    color: #fff;
+    background: #07a7f8;
+}
+div#footerRights *
+{
+    display: block;
+
+    margin: 10px auto;
+
+    text-align: center;
+}
+
+/* ==========================================================================
+       Tiles
+       ========================================================================== */
+
+/* Tiles Geral */
+
+.tile
+{
+    margin-bottom: 15px !important;
+}
+
+.tile img.left
+{
+    width: 100%;
+    height: auto;
+}
+/* Tile Basic */
+
+.cover-basic-tile.tile-content h2
+{
+    line-height: 1em;
+}
+
+.cover-basic-tile.tile-content h2 a
+{
+    font-size: .85em;
+
+    color: #000 !important;
+}
+
+
+/*Tile Basico*/
+
+.cover-richtext-tile h4
+{
+    font-size: 1.7em;
+    font-weight: bold;
+
+    margin-top: 40px;
+
+    color: #073772;
+}
+
+.cover-richtext-tile h4 a
+{
+    color: #073772 !important;
+}
+
+.cover-richtext-tile a.destaque img.image-inline
+{
+    width: 100% !important;
+}
+
+
+#content .cover-richtext-tile a:link,
+#content .cover-richtext-tile a:visited
+{
+    color: #000;
+    border-bottom: 0;
+}
+
+/*Conteudo*/
+
+#content h1.documentFirstHeading
+{
+    font-size: 2.1em;
+
+    width: 98%;
+
+    text-transform: uppercase;
+
+    color: #083671;
+}
+
+.portaltype-document hr
+{
+    margin: 22px 0;
+}
+
+.portaltype-document #content h4
+{
+    font-size: 2em;
+
+    width: 98%;
+
+    text-transform: uppercase;
+
+    color: #083671;
+}
+
+.titulo > span
+{
+    font-size: 1.4em;
+    font-weight: bold;
+
+    position: absolute;
+    top: -6px;
+    left: 10%;
+
+    color: #00529b;
+}
+
+.collection-item
+{
+    width: 96%;
+}
+
+.fa-pencil:before
+{
+    content: '\f040';
+}
+
+.icones i
+{
+    font-size: 90px;
+}
+
+.icones span
+{
+    font-size: 20px;
+
+    display: block;
+
+    margin-top: 15px;
+    margin-right: 0;
+    margin-bottom: 58px;
+    margin-left: 0;
+}
+
+#content .icones a
+{
+    color: #0b2d93 !important;
+}
+#content .icones a:hover
+{
+    color: #fdb917 !important;
+}
+
+.item
+{
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+h2.tituloCapa
+{
+    font-size: 1.5em;
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    letter-spacing: 0;
+
+    border-bottom: 4px solid #07a7f8;
+}
+
+#content .cover-basic-tile h3
+{
+    font-size: 1em;
+
+    clear: left;
+}
+
+#content .cover-basic-tile.tile-content h3 a
+{
+    font-size: 1.3em;
+
+    display: inline-block;
+
+    margin: 5px 0;
+
+    color: #000;
+}
+
+.ficouinteressadoform
+{
+    padding: 10px;
+
+    background: #f8f8f8;
+}
+
+.ficouinteressadoform span.required
+{
+    display: none;
+}
+
+.ficouinteressadoform h2
+{
+    font-size: 1.5em;
+
+    letter-spacing: 0;
+    text-transform: uppercase;
+
+    color: #e1504a;
+}
+
+.ficouinteressadoform h3
+{
+    font-weight: normal;
+
+    letter-spacing: 0;
+
+    color: #357dbe;
+}
+.ficouinteressadoform div.ArchetypesStringWidget *
+{
+    float: right;
+
+    width: auto;
+}
+
+.ficouinteressadoform div.formControls
+{
+    font-size: 1.6em;
+
+    width: auto;
+    margin: 0 !important;
+
+    text-align: center;
+
+    border: none !important;
+    background: #e1504a;
+}
+
+.ficouinteressadoform div.formControls input
+{
+    font-weight: bold;
+
+    width: 100%;
+    padding: 10px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none !important;
+    background: transparent;
+}
+
+.ficouinteressadoform div.formControls:hover
+{
+    background: #af2e29;
+}
+
+.ficouinteressadoform div.ArchetypesStringWidget
+{
+    font-size: 1.2em;
+
+    display: block;
+
+    padding: 5px;
+
+    color: #357dbe;
+    border: 1px solid #357dbe;
+}
+
+.cover-richtext-tile.tile-content img
+{
+    display: block;
+
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.ficouinteressadoform div#archetypes-fieldname-topic input,
+.ficouinteressadoform div#archetypes-fieldname-replyto input,
+.ficouinteressadoform div#archetypes-fieldname-cidade input,
+.ficouinteressadoform div#archetypes-fieldname-ddd input,
+.ficouinteressadoform div#archetypes-fieldname-telefone input,
+.ficouinteressadoform div.ArchetypesSelectionWidget select
+{
+    font-size: 1em !important;
+
+    width: 73%;
+    margin-top: -1px;
+    color: #357dbe;
+    border: 1px dashed rgba(53, 125, 190, .61);
+    background: transparent;
+}
+
+.ficouinteressadoform div.ArchetypesSelectionWidget
+{
+    font-size: 1.2em;
+
+    display: block;
+
+    padding: 5px;
+
+    color: #357dbe;
+    border: 1px solid #257dbe;
+}
+.ficouinteressadoform div.ArchetypesSelectionWidget *
+{
+    float: right;
+
+    width: auto;
+}
+
+.empresasconveniadas h3 a,
+#content .empresasconveniadas h3 a
+{
+    display: block;
+
+    padding: 30px;
+
+    text-decoration: none;
+
+    color: #e7e355 !important;
+}
+
+.empresasconveniadas h3 a:hover,
+#content .empresasconveniadas h3 a:hover
+{
+    color: #fff !important;
+}
+
+.empresasconveniadas,
+#content .empresasconveniadas
+{
+    font-size: 1.7em;
+
+    width: 250px;
+    min-height: 150px;
+    margin: 10px auto;
+
+    text-align: center;
+
+    background: url('./img/pattern-empresas.jpg');
+}
+
+.empresasconveniadas h3 a span,
+#content .empresasconveniadas h3 a span
+{
+    font-size: .7em;
+
+    padding: 5px;
+
+    color: #fff !important;
+    border: 1px solid #fff;
+}
+
+.empresasconveniadas h3 a:hover span,
+#content .empresasconveniadas h3 a:hover span
+{
+    color: #e7e355 !important;
+    border: 1px solid #e7e355 !important;
+}
+
+.atendimentoonline:hover,
+.empresasconveniadas:hover,
+#content .atendimentoonline:hover,
+#content .empresasconveniadas:hover
+{
+    opacity: .6;
+
+    filter: alpha(opacity=60);
+}
+
+.atendimentoonline,
+#content .atendimentoonline
+{
+    font-size: 1.2em;
+
+    width: 250px;
+    min-height: 150px;
+    margin: 10px auto;
+
+    text-align: left;
+
+    color: #fff;
+    background: url('./img/pattern-central-de-atendimento.jpg');
+}
+
+.atendimentoonline a span,
+#content .atendimentoonline a span
+{
+    display: block;
+
+    letter-spacing: .1em;
+
+    color: #fff !important;
+}
+
+.atendimentoonline a:hover,
+#content .atendimentoonline a:hover
+{
+    text-decoration: none !important;
+}
+
+.atendimentoonline a i.fa.fa-comments-o
+{
+    font-size: 2.8em;
+
+    float: left;
+
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 12px;
+
+    color: #fff !important;
+}
+
+.atendimentoonline a span.horarioatendimento,
+#content .atendimentoonline a span.horarioatendimento
+{
+    font-size: 1.3em;
+    font-weight: bold;
+
+    color: #e7e355 !important;
+}
+
+.atendimentoonline a span.tituloatendimento,
+#content .atendimentoonline a span.tituloatendimento
+{
+    font-size: 1.2em;
+    font-weight: bold;
+
+    letter-spacing: .1em;
+
+    color: #fff !important;
+}
+
+.atendimentoonline a,
+#content .atendimentoonline a
+{
+    display: block;
+
+    padding: 35px 0;
+}
+
+.atendimentoonline a:hover span,
+.atendimentoonline a:hover i.fa.fa-comments-o,
+#content .atendimentoonline a:hover span,
+#content .atendimentoonline a:hover i.fa.fa-comments-o
+{
+    color: #e7e355 !important;
+}
+
+.atendimentoonline a:hover span.horarioatendimento,
+#content .atendimentoonline a:hover span.horarioatendimento
+{
+    color: #fff !important;
+}
+
+.portletStaticText .ficouinteressadoform
+{
+    font-size: .7em;
+}
+.portletStaticText .empresasconveniadas
+{
+    font-size: 1.3em;
+}
+.portletStaticText .atendimentoonline
+{
+    font-size: .9em;
+}
+
+.template-curso_view_ead #content h1.documentFirstHeading
+{
+    margin-bottom: 5px;
+
+    letter-spacing: 0;
+
+    color: #e1514a;
+}
+
+div#viewlet-below-content-title
+{
+    display: none;
+}
+
+#content .documentDescription,
+#content #description
+{
+    margin-bottom: 10px;
+}
+
+.inscrevase.botaointernocurso
+{
+    font-size: 1.4em;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+span.imagemDestaque
+{
+    display: block;
+
+    margin-bottom: 10px;
+}
+
+.textoConteudoCurso
+{
+    margin-top: 4px;
+}
+.vpolo div h3 a
+{
+    font-weight: normal;
+}
+.vpolo
+{
+    font-size: .9em;
+
+    display: block;
+    clear: both;
+
+    margin-top: 20px;
+    padding: 10px;
+
+    border: 1px solid #000;
+    border-top: 5px solid #e1504a;
+}
+.vpolo h2
+{
+    font-size: 1.3em;
+
+    margin-bottom: 10px;
+
+    color: #e1504a;
+}
+.vpolo a
+{
+    font-size: .9em;
+
+    color: #000 !important;
+}
+#content .vpolo a:hover
+{
+    text-decoration: none;
+
+    color: #367dbe !important;
+}
+.template-curso_view_ead #content h3
+{
+    font-size: 1.2em;
+
+    color: #e1504a;
+}
+
+.template-curso_view_ead #content a.external-link
+{
+    color: red;
+    border: #e1504a;
+}
+
+
+#content a.external-link.borda
+{
+    border-bottom: 1px solid gray !important;
+}
+
+
+
+#content .inscrevase.botaointernocurso a:hover
+{
+    text-decoration: none !important;
+
+    color: #fff !important;
+}
+
+span.imagemDestaque img
+{
+    width: 100%;
+    height: auto;
+}
+#content p
+{
+    overflow: hidden;
+
+    max-width: 100%;
+}
+#content
+{
+    padding: 10px;
+}
+body.section-graduacao-a-distancia.subsection-polos .cover-richtext-tile.tile-content
+{
+    height: inherit;
+}
+body.section-graduacao-a-distancia.subsection-polos #content .row
+{
+    display: block;
+
+    min-height: auto;
+
+    border: 1px solid #8c959d;
+    border-top: 5px solid #e1504a;
+}
+body.section-graduacao-a-distancia.subsection-polos .colunadoispolos
+{
+    margin-top: 57px;
+}
+body.section-pos-graduacao-a-distancia .cover-richtext-tile.tile-content
+{
+    height: inherit;
+}
+body.section-pos-graduacao-a-distancia #content h1.documentFirstHeading
+{
+    color: #000;
+}
+body.section-pos-graduacao-a-distancia #content h3
+{
+    font-size: 1.4em;
+
+    margin-bottom: 10px;
+    padding: 5px;
+
+    color: #e1504a;
+    border: 1px solid #8c959d;
+    border-top: 5px solid #e1504a;
+}
+
+body.section-pos-graduacao-a-distancia #content p a
+{
+    font-size: 1.1em;
+
+    padding-left: 8px;
+
+    text-decoration: none !important;
+
+    color: #000 !important;
+    border-bottom: none !important;
+}
+body.section-pos-graduacao-a-distancia #content p a:hover
+{
+    color: #357dbe !important;
+}
+
+body.section-pos-graduacao-a-distancia #content a:hover
+{
+    text-decoration: none !important;
+}
+
+body.section-graduacao-a-distancia.subsection-polos #content .tile h3
+{
+    display: block;
+    clear: both;
+
+    color: #e1504a;
+}
+body.section-graduacao-a-distancia.subsection-polos #content .tile a:hover
+{
+    text-decoration: none;
+
+    color: #357dbe !important;
+}
+.classe-destaques p
+{
+    color: #fff !important;
+}
+.classe-destaques .cover-basic-tile
+{
+    overflow: hidden;
+
+    height: 206px;
+}
+.classe-destaques a.imag::after
+{
+    position: relative;
+    top: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background:    -moz-linear-gradient(top, rgba(0,0,0,.2) 0%,rgba(0,0,0,.75) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,.2) 0%,rgba(0,0,0,.75) 100%);
+    background:         linear-gradient(to bottom, rgba(0,0,0,.2) 0%,rgba(0,0,0,.75) 100%);
+}
+
+.classe-destaques .cover-basic-tile:hover img
+{
+    opacity: .6;
+}
+#content .classe-destaques .cover-basic-tile.tile-content > p
+{
+    font-size: 1.2em !important;
+
+    position: absolute;
+
+    display: block;
+    float: left;
+    clear: both;
+
+    margin-top: -3em;
+    padding: 0 20px;
+}
+#content .classe-destaques h3
+{
+    position: absolute;
+    bottom: 0;
+
+    float: left;
+    clear: both !important;
+
+    margin-bottom: 2.5em;
+    padding: 20px;
+}
+#content .classe-destaques h3 a
+{
+    font-size: 1.4em;
+
+    color: #fff !important;
+}
+
+.avisos-internos div:first-child
+{
+    margin-top: 16px;
+    padding: 31px 20px;
+
+    background: #e1504a !important;
+}
+.descricaoVerde div:first-child
+{
+    height: 104px;
+    margin-top: -15px;
+    padding: 30px 20px;
+
+    border-right: 1px solid #8c959d;
+    border-bottom: 1px solid #8c959d;
+    border-left: 1px solid #8c959d;
+}
+#content .avisos-internos h3 a,
+#content .avisos-internos p
+{
+    color: #fff !important;
+}
+
+body.section-pos-graduacao-a-distancia #barrahorizontal .inscrevase,
+body.subsection-segunda-licenciatura #barrahorizontal .inscrevase,
+body.section-cursos-de-curta-duracao-a-distancia #barrahorizontal .inscrevase
+{
+    display: none;
+}
+body.subsection-cursos div h3 img.image-inline
+{
+    max-width: 100%;
+}
+body.section-pos-graduacao-a-distancia #barrahorizontal div#btnavdesktop,
+body.section-cursos-de-curta-duracao-a-distancia #barrahorizontal div#btnavdesktop
+{
+    margin-right: 0;
+}
+#column-two dl.portlet ul.navTreeLevel0 > .navTreeItem
+{
+    padding: inherit !important;
+}
+#column-two dl.portlet ul.navTreeLevel0 li.navTreeItem.navTreeCurrentNode a
+{
+    color: #e1504a !important;
+}
+dl.portlet ul.navTree .navTreeCurrentItem
+{
+    margin-right: 0;
+    margin-left: 0;
+
+    border: none;
+    background: none !important;
+}
+
+#column-two dl.portlet ul.navTreeLevel0 a
+{
+    font-size: 1.2em;
+
+    color: #000 !important;
+}
+
+#column-two dl.portlet ul.navTreeLevel0 a:hover
+{
+    color: #357dbe !important;
+}
+
+.icons-on #column-two .navTree li a
+{
+    padding-left: 0 !important;
+
+    background: none !important;
+}
+
+body.template-document_view.section-graduacao-a-distancia.subsection-cursos-cursos table.plain a img
+{
+    width: 90px;
+}
+body.template-document_view.section-graduacao-a-distancia.subsection-cursos-cursos table.plain td
+{
+    font-size: .85em;
+
+    max-width: 90px !important;
+    padding: 3px;
+}
+
+.addthis_sharing_toolbox
+{
+    position: inherit !important;
+    left: 0 !important;
+}
+.galleria {height:78px;}
+.galleria-info {display: none;}
+.galleria-stage,
+.galleria-stage .galleria-image .galleria-layer,
+.galleria-layer img,
+.galleria-container img
+{
+    height: 100% !important;
+    width: 100% !important;
+    left: 0;
+    top: 0;
+}
+.galleria-thumbnails-container {
+    bottom: 0;
+}
+
+.sejapolo img {
+    width: 94% !important;
+}
+@media only screen and (min-width : 380px)
+{
+    .galleria {height:93px;}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+    .galleria {height:120px;}
+
+    .precisaConsultoria p
+    {
+        font-size: 2em;
+    }
+    .classe-destaques .cover-basic-tile
+    {
+        height: 263px;
+    }
+    div#logo a img
+    {
+        /*width: 160px;
+        padding-top: 15px;*/
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+    .galleria {height:194px;}
+
+    body.template-document_view.section-graduacao-a-distancia.subsection-cursos-cursos table.plain a img
+    {
+        width: inherit;
+    }
+    body.template-document_view.section-graduacao-a-distancia.subsection-cursos-cursos table.plain td
+    {
+        font-size: inherit;
+
+        max-width: inherit !important;
+        padding: inherit;
+    }
+
+header#main-header .wrapper {
+     padding: 15px 0;
+}
+
+    div#logo{padding: 0;}
+    #logo a.logoead img {
+    display: block;
+    }
+    #logo a.logoead
+{
+    display: inline-block;
+    width: auto;
+    border: none;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #e9f0f3;
+}
+
+    span.educadist {
+    display: none;
+    }
+    
+    
+    div#logo a img
+    {
+        width: auto;
+    }
+    /*#logo a.logoead
+    {
+        margin-top: 10px;
+    }*/
+
+    .section-processo-seletivo .cover-richtext-tile.tile-content,
+    .section-ead .cover-richtext-tile.tile-content
+    {
+        overflow: hidden;
+
+        height: 52px;
+        margin: 0;
+    }
+    .classe-destaques .cover-basic-tile
+    {
+        display: block;
+        overflow: hidden;
+
+        min-width: 358px !important;
+        min-height: 351px !important;
+    }
+    .tile.classe-destaques img.left
+    {
+        width: auto !important;
+        height: 100% !important;
+    }
+
+    #content .classe-destaques h3
+    {
+        min-width: 315px;
+        margin-bottom: 4.5em;
+    }
+    #content .classe-destaques .cover-basic-tile.tile-content > p
+    {
+        min-width: 315px;
+        margin-top: -4em;
+    }
+    .classe-destaques .cover-basic-tile
+    {
+        min-width: 554px;
+        min-height: 317px;
+    }
+
+    .avisos-internos div:first-child
+    {
+        margin-left: -10%;
+    }
+    .descricaoVerde div:first-child
+    {
+        margin-left: -10%;
+
+        border-left: none;
+    }
+    .classe-destaques a.imag::after
+    {
+        height: 350px;
+    }
+
+    #content
+    {
+        padding: 0;
+    }
+
+    .avisos-internos .cover-basic-tile.tile-content
+    {
+        height: inherit;
+    }
+    .textoConteudoCurso
+    {
+        float: left;
+
+        width: 70%;
+        margin-right: 3%;
+    }
+    .textoPolo
+    {
+        float: right;
+
+        width: 22%;
+    }
+    .redes span
+    {
+        font-weight: bold;
+    }
+    h2.headerdesk
+    {
+        display: none;
+    }
+    .ficouinteressadoform div#archetypes-fieldname-topic input,
+    .ficouinteressadoform div#archetypes-fieldname-replyto input,
+    .ficouinteressadoform div#archetypes-fieldname-cidade input,
+    .ficouinteressadoform div#archetypes-fieldname-ddd input,
+    .ficouinteressadoform div#archetypes-fieldname-telefone input
+    {
+        width: 50%;
+    }
+    .ficouinteressadoform div.ArchetypesSelectionWidget select
+    {
+        width: 40%;
+    }
+    .redes
+    {
+        padding: 15px 10px 10px 2%;
+
+        text-align: right;
+
+        border: 1px solid #e9f0f3;
+    }
+
+    #footerRightslocal .redes span
+    {
+        display: block;
+
+        margin-top: 10px;
+
+        color: #357dbe;
+    }
+    div#footerRights span
+    {
+        font-weight: bold;
+
+        margin-top: 40px;
+        padding-left: 3%;
+    }
+
+    #footerRightslocal img
+    {
+        padding-right: 20px;
+    }
+
+    div#footerlocal
+    {
+        padding-bottom: 20px;
+
+        color: #fff;
+        background: #357dbe;
+    }
+    div#footerlocal ul.column.col-md-3
+    {
+        font-size: .9em;
+    }
+    div#footerlocal a
+    {
+        display: block;
+
+        padding: 2px;
+
+        color: #fff !important;
+    }
+    div#footerlocal .barraseparadora
+    {
+        font-size: 1em !important;
+        font-weight: bold;
+    }
+    div#footerlocal li.subtitulo
+    {
+        font-size: 1.2em;
+        font-weight: bold !important;
+
+        display: block;
+
+        margin-bottom: 5px;
+    }
+    div#footerlocal ul.column.coluna2
+    {
+        display: block;
+
+        padding-top: 27px;
+
+        border-right: 1px solid #fff;
+    }
+    div#footerlocal a:hover
+    {
+        text-decoration: none;
+
+        color: #e7e355 !important;
+    }
+
+    div#footerlocal .tituloRodape h3
+    {
+        font-size: 1.3em;
+        font-weight: bold;
+
+        display: inline-block;
+
+        margin-bottom: 10px;
+        margin-left: 3%;
+        padding-top: 10px;
+
+        text-transform: uppercase;
+
+        color: #fff !important;
+        border-bottom: 3px solid #fff;
+    }
+
+    #barrahorizontal .ambientecontato a
+    {
+        font-weight: bold;
+
+        padding: 10px;
+
+        color: #fff !important;
+        border-left: 1px solid #fff;
+    }
+
+    #barrahorizontal .ambientecontato
+    {
+        display: block !important;
+
+        padding: 10px;
+
+        text-align: right;
+
+        color: #fff !important;
+        background: #07a7f8;
+    }
+    #barrahorizontal .ambientecontato a:hover
+    {
+        text-decoration: underline;
+
+        color: #e9f0f3 !important;
+    }
+    .barratelefone
+    {
+        font-size: 1em;
+        font-weight: bold;
+
+        min-width: 45%;
+    }
+
+    .barratelefone *
+    {
+        padding: 10px;
+    }
+    .inscrevase
+    {
+    font-size: 1.2em;
+    font-weight: bold;
+    float: left;
+    padding: 0;
+    width: 17.8%;
+    margin-left: -2px;
+    text-align: right;
+    border: 1px solid #e9f0f3;
+    }
+    .inscrevase span.inscrevaseicone
+    {
+        display: inline-block;
+
+        margin-left: 5px;
+        padding: 10px;
+
+        background: #e19e9b;
+    }
+    .inscrevase:hover span.inscrevaseicone
+    {
+        background: #c96a66;
+    }
+
+    .inscrevase:hover
+    {
+        background: #af2e29;
+    }
+    .inscrevase a
+    {
+        padding: 0;
+    }
+
+    .box-noticias
+    {
+        margin-top: 20px;
+    }
+
+    ul#navigationmobile
+    {
+        display: none !important;
+    }
+
+    /* carrossel */
+    .destaque-principal
+    {
+        overflow: hidden;
+
+        height: 190px;
+    }
+
+    #content .cover-basic-tile.tile-content > p
+    {
+        font-size: 1em !important;
+    }
+
+    #content .cover-basic-tile h3
+    {
+        font-size: 1em;
+
+        clear: left;
+    }
+
+    .collection-item h3
+    {
+        font-size: .9em;
+
+        text-transform: uppercase;
+    }
+    .description
+    {
+        font-size: .85em;position: relative;
+    }
+
+    .userrole-authenticated .banner-home
+    {
+        top: 0;
+    }
+
+    /*Ajuste header*/
+
+    /*div#logo a img
+    {
+        position: relative;
+        top: 0;
+        left: inherit;
+
+        margin-left: 10px;
+    }*/
+    #main-navigation li:hover
+    {
+        background: transparent;
+    }
+    /* cor do place holder */
+    ::-webkit-input-placeholder
+    {
+        color: #8c959d;
+    }
+
+    :-moz-placeholder
+    {
+        /* Firefox 18- */
+        color: #8c959d;
+    }
+
+    ::-moz-placeholder
+    {
+        /* Firefox 19+ */
+        color: #8c959d;
+    }
+
+    :-ms-input-placeholder
+    {
+        color: #8c959d;
+    }
+
+
+
+
+
+
+    #btnavdesktop li a,
+    #btnavdesktop li a:hover
+    {
+        text-decoration: none !important;
+
+        color: #07a7f8 !important;
+    }
+
+    #btnavdesktop li:hover
+    {
+        padding: 8px 5px;
+
+        border-bottom: 2px solid #e1504a;
+    }
+
+    #btnavdesktop .sub-menu li a:hover
+    {
+        border: none !important;
+    }
+    #btnavdesktop ul li
+    {
+        display: inline-block;
+
+        padding: 10px 5px;
+    }
+    #btnavdesktop ul div
+    {
+        float: left;
+
+        min-width: 140px;
+    }
+    #btnavdesktop li li a
+    {
+        color: #8c959d !important;
+    }
+    #btnavdesktop li li a:hover
+    {
+        border-bottom: #8c959d !important;
+    }
+    #btnavdesktop ul li li a:hover
+    {
+        border-bottom: none !important;
+    }
+    #btnavdesktop ul ul li
+    {
+        display: block;
+
+        padding: 2px;
+    }
+    #btnavdesktop li li:hover
+    {
+        padding: 2px;
+
+        border-bottom: none;
+    }
+    #btnavdesktop .colunamenu02
+    {
+        height: 100%;
+        margin-right: 10px;
+        padding: 0 10px;
+
+        border-right: 1px solid #e9f0f3;
+    }
+    #btnavdesktop #menucursos .colunamenu03,
+    #btnavdesktop #menucursos #linkgraduacao
+    {
+        font-weight: bold;
+    }
+    
+    .mtop10{margin-top: 15px;}
+    .mtop32{margin-top: 32px;}
+    
+    
+    #footerRightslocal span
+    {
+        float: left;
+
+        width: auto;
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+
+    #footerRightslocal span:last-child
+    {
+        border-right: none !important;
+    }
+
+    div#portal-searchbox
+    {
+        position: relative;
+            border: solid 1px #cacaca;
+        display: block;
+        width: 280px;
+        color: #8c959d !important;
+        margin: 30px 0;
+        background: transparent;
+    }
+
+    .searchButton
+    {
+        color: #000;
+    }
+
+    #footerRightslocal img
+    {
+        display: inline;
+        float: right;
+
+        padding-right: 10px;
+    }
+
+    #portal-searchbox input#searchGadget,
+    #portal-searchbox input#nolivesearchGadget
+    {
+    color: #8c959d !important;
+    padding: 7px;
+    width: 210px;
+    border: none;
+        
+    }
+
+    /*div#logo
+    {
+        margin-left: 10px;
+    }*/
+
+    .precisaConsultoria p
+    {
+        font-size: 1.3em !important;
+    }
+
+    .item
+    {
+        display: block;
+        float: left;
+
+        width: 25%;
+    }
+    .banner-central
+    {
+        display: block;
+
+        margin-bottom: 70px;
+    }
+
+    .banner-central img
+    {
+        width: 100%;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+    .galleria {height:251px;}
+
+    .classe-destaques .cover-basic-tile
+    {
+        min-width: 463px !important;
+        min-height: 316px !important;
+    }
+    #content .classe-destaques .cover-basic-tile.tile-content > p
+    {
+        margin-top: -6.5em;
+    }
+    .ficouinteressadoform div#archetypes-fieldname-topic input,
+    .ficouinteressadoform div#archetypes-fieldname-replyto input,
+    .ficouinteressadoform div#archetypes-fieldname-cidade input,
+    .ficouinteressadoform div#archetypes-fieldname-ddd input,
+    .ficouinteressadoform div#archetypes-fieldname-telefone input
+    {
+        width: 65%;
+    }
+    .ficouinteressadoform div.ArchetypesSelectionWidget select
+    {
+        width: 55% !important;
+    }
+    #btnavdesktop ul li
+    {
+        padding: 10px;
+    }
+    #btnavdesktop li:hover
+    {
+        padding: 8px 10px;
+    }
+    .destaque-principal
+    {
+        height: 255px;
+    }
+    .precisaConsultoria p
+    {
+        font-size: 1.5em !important;
+
+        margin: 60px auto;
+    }
+    .precisaConsultoria
+    {
+        height: 235px;
+    }
+    .precisaConsultoria p.botao
+    {
+        margin-top: 30px;
+    }
+
+    .revistasDigitais .fa-book
+    {
+        font-size: 7em;
+
+        width: 85px;
+        margin-top: 45px;
+    }
+    .revistasDigitais
+    {
+        height: 280px;
+    }
+
+    div#content
+    {
+        min-height: 300px;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .cell.width-16.position-0 .destaque-principal
+    {
+        height: 285px;
+    }
+
+    .barra-sup-container
+    {
+        width: 100%;
+
+        border-top-width: .4em;
+        border-top-style: solid;
+        border-top-color: #ffd51d;
+        border-bottom: 3px solid #ccd3df;
+        background: #fff !important;
+    }
+    .m-accessibilidade ul
+    {
+        position: relative;
+
+        width: 95%;
+        max-width: 1134px;
+        height: 23px;
+        margin: 0 auto;
+    }
+
+    .m-accessibilidade img
+    {
+        width: 21px;
+        height: 21px;
+    }
+    .m-accessibilidade a
+    {
+        color: #fff;
+    }
+
+    .m-accessibilidade p
+    {
+        font-size: .9em;
+        font-weight: bold;
+
+        float: left;
+
+        margin-top: 5px;
+        margin-right: 3px;
+        padding: 0 5px 1px;
+
+        text-align: center;
+
+        color: #fff;
+        border-radius: 50%;
+        background: #0e9bc9;
+    }
+    .m-accessibilidade
+    {
+        position: relative;
+        top: 0;
+
+        display: block;
+
+        width: 100%;
+        padding: 3px 0 6px;
+
+        border-bottom: 3px solid #ffd51d;
+        background: #606969;
+    }
+    ul.op-acess li
+    {
+        float: left;
+
+        padding: 0 5px;
+    }
+    ul.op-acess li:hover
+    {
+        background: rgba(255, 255, 255, .3);
+    }
+
+
+
+
+    ul#portal-siteactions2 li a
+    {
+        font-weight: bold;
+
+        border-bottom: 1px dotted #fff;
+    }
+
+    ul.op-acess li.contrast
+    {
+        position: relative;
+        right: 44px;
+
+        float: right;
+
+        width: auto !important;
+        min-height: 24px;
+    }
+
+    .op-acess li a
+    {
+        font-size: .6em;
+
+        position: relative;
+        top: 3px;
+        left: 2px;
+    }
+
+    .barra-sup-botoes li a
+    {
+        color: #03539c !important;
+    }
+
+    .barra-sup-container
+    {
+        border-bottom: 3px solid #cdd3df;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+    .galleria {height:300px;}
+
+    .textoPolo .inscrevase span.inscrevaselink
+    {
+        padding-right: 10px;
+    }
+    .classe-destaques .cover-basic-tile
+    {
+        min-width: 553px !important;
+        min-height: 317px !important;
+    }
+    .ficouinteressadoform div#archetypes-fieldname-topic input,
+    .ficouinteressadoform div#archetypes-fieldname-replyto input,
+    .ficouinteressadoform div#archetypes-fieldname-cidade input,
+    .ficouinteressadoform div#archetypes-fieldname-ddd input,
+    .ficouinteressadoform div#archetypes-fieldname-telefone input
+    {
+        width: 65%;
+    }
+    .ficouinteressadoform div.ArchetypesSelectionWidget select
+    {
+        width: 65% !important;
+    }
+}
+
+.template-curso_view_ead_off  .inscrevase
+{
+    display: none !important;
+}
+
+.template-curso_view_ead_off .textoPolo
+{
+    display: none;
+}
+.template-curso_view_ead_off .textoConteudoCurso
+{
+    width: 95%;
+}
+@media only screen and (max-width : 767px)
+{
+    body.subsection-cursos table
+    {
+        font-size: 2em;
+    }
+    body.subsection-cursos table td
+    {
+        display: block;
+    }
+    body.subsection-cursos table tr:first-child
+    {
+        display: none;
+    }
+    body.subsection-cursos table tr td::before
+    {
+        font-weight: bold;
+
+        padding-right: 5px;
+    }
+    body.subsection-cursos table tr td:nth-child(1)
+    {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    body.subsection-cursos table.plain a
+    {
+        line-height: 1.2em;
+    }
+    body.subsection-cursos table tr td:nth-child(1)::before
+    {
+        content: 'Curso: ';
+    }
+    body.subsection-cursos table tr td:nth-child(2)::before
+    {
+        content: 'Modalidade: ';
+    }
+    body.subsection-cursos table tr td:nth-child(3)::before
+    {
+        content: 'Turno: ';
+    }
+    body.subsection-cursos table tr td:nth-child(4)::before
+    {
+        content: 'Duração: ';
+    }
+    body.subsection-cursos table td:nth-child(6)
+    {
+        padding-bottom: 30px;
+
+        text-align: center;
+
+        border-bottom: none;
+    }
+    body.subsection-cursos table tr td
+    {
+        width: 100% !important;
+    }
+    body.subsection-cursos #content h2
+    {
+        font-size: 2.5em;
+
+        padding: 20px 20px 30px;
+    }
+    body.template-document_view.section-graduacao-a-distancia.subsection-cursos-cursos table.plain td
+    {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto;
+        padding: 8px 0;
+    }
+    body.template-document_view.section-graduacao-a-distancia.subsection-cursos-cursos table.plain a img
+    {
+        width: auto;
+        max-width: 90%;
+    }
+    body.subsection-cursos table td
+    {
+        border: none;
+        border-bottom: 1px solid #d0d0d0;
+    }
+    body.subsection-cursos table td img
+    {
+        padding-bottom: 30px;
+
+        text-align: center;
+
+        border-bottom: none;
+    }
+    body.subsection-cursos table
+    {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
+
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-porto-alegre .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-piracicaba-taquaral .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-lins .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-belo-horizonte-praca-da-liberdade .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-juiz-de-fora .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-rudge-ramos .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-vergueiro .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-planalto .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-santa-maria .inscrevase {
+    display: none;
+}
+
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-porto-alegre #content .inscrevase,
+.sectDion-graduacao-a-distancia.subsection-polos.subsection-polos-piracicaba-taquaral #content .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-lins #content .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-belo-horizonte-praca-da-liberdade #content .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-juiz-de-fora #content .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-rudge-ramos #content .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-vergueiro #content .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-planalto #content .inscrevase,
+.section-graduacao-a-distancia.subsection-polos.subsection-polos-santa-maria #content .inscrevase {
+    display: block;
+}

@@ -1,0 +1,1379 @@
+/*Conteudo*/
+
+
+.site-ead.section-processo-seletivo.subsection-enem #edit-bar {padding-top: 10px;margin-bottom: 100px;}
+
+
+.site-ead.section-processo-seletivo.subsection-enem .inscrevase {
+    display: none !important;
+}
+
+/* carousel conheca a metodista */
+
+.section-processo-seletivo.subsection-enem div#footerlocal {
+    display: none !important;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .conhecaAMetodista
+{
+    padding: 20px 0 30px;
+
+    text-align: center;
+}
+.site-ead.section-processo-seletivo.subsection-enem .conhecaAMetodista .conhecaHeader h3
+{
+    font-family: verdana;
+    font-size: 1.5em;
+
+    margin: 20px 0 5px;
+
+    text-align: center;
+
+    color: #ffd51d;
+}
+.site-ead.section-processo-seletivo.subsection-enem #content .conhecaAMetodista .conhecaHeader a.conhecabotao
+{
+    font-size: 1.1em;
+    font-weight: bold;
+
+    display: inline-block;
+
+    width: auto;
+    margin: 10px auto 20px;
+    padding: 10px;
+
+    text-align: center;
+
+    color: #fff;
+    border-bottom: none;
+    background: #dc2018;
+}
+.site-ead.section-processo-seletivo.subsection-enem #content .conhecaAMetodista .conhecaHeader a.conhecabotao:hover
+{
+    text-decoration: none;
+
+    color: #fff !important;
+    background: #e1504a;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-slide
+{
+    margin: 0 20px;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .slider
+{
+    max-width: 1120px;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .conhecaAMetodista .slick-slide img
+{
+    border: 2px solid #fff;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .slick-slide img
+{
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+/* Arrows */
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+    cursor: pointer;
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:hover,
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:focus,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:hover,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:hover:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:focus:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:hover:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:focus:before
+{
+    opacity: 1;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev.slick-disabled:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:before
+{
+    font-size: 20px;
+    line-height: 1;
+
+    z-index: 3000;
+
+    opacity: .75;
+    color: #ffd51d !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev
+{
+    z-index: 3000;
+    left: 5px;
+}
+.site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-prev
+{
+    right: 5px;
+    left: auto;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:before
+{
+    font-family: FontAwesome;
+
+    content: '\f053';
+}
+.site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-prev:before
+{
+    font-family: FontAwesome;
+
+    content: '\f053';
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-next
+{
+    right: 5px;
+}
+.site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-next
+{
+    right: auto;
+    left: 5px;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:before
+{
+    font-family: FontAwesome;
+
+    content: '\f054';
+}
+.site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-next:before
+{
+    font-family: FontAwesome;
+
+    content: '\f054';
+}
+
+.site-ead.section-processo-seletivo.subsection-enem #lightbox
+{
+    position: fixed;
+    z-index: 30000;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    background: rgba(0, 0, 0, .85);
+}
+.site-ead.section-processo-seletivo.subsection-enem #lightbox img
+{
+    max-width: 940px;
+    margin-top: 15%;
+
+    -webkit-box-shadow: 0 0 25px #111;
+       -moz-box-shadow: 0 0 25px #111;
+            box-shadow: 0 0 25px #111;
+}
+|
+
+.site-ead.section-processo-seletivo.subsection-enem #content .conhecaAMetodista .conhecaHeader a.conhecabotao
+{
+    font-size: 1.1em;
+    font-weight: bold;
+
+    display: inline-block;
+
+    width: auto;
+    margin: 10px auto 20px;
+    padding: 10px;
+
+    text-align: center;
+
+    color: #fff;
+    border-bottom: none;
+    background: #dc2018;
+}
+.site-ead.section-processo-seletivo.subsection-enem #content .conhecaAMetodista .conhecaHeader a.conhecabotao:hover
+{
+    text-decoration: none;
+
+    color: #fff !important;
+    background: #e1504a;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-slide
+{
+    margin: 0 20px;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .slider
+{
+    max-width: 1120px;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .conhecaAMetodista .slick-slide img
+{
+    border: 2px solid #fff;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .slick-slide img
+{
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+/* Arrows */
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+    cursor: pointer;
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:hover,
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:focus,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:hover,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:hover:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:focus:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:hover:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:focus:before
+{
+    opacity: 1;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev.slick-disabled:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:before,
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:before
+{
+    font-size: 20px;
+    line-height: 1;
+
+    z-index: 3000;
+
+    opacity: .75;
+    color: #00539c !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev
+{
+    z-index: 3000;
+    left: 5px;
+}
+.site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-prev
+{
+    right: 5px;
+    left: auto;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-prev:before
+{
+    font-family: FontAwesome;
+
+    content: '\f053';
+}
+.site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-prev:before
+{
+    font-family: FontAwesome;
+
+    content: '\f053';
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-next
+{
+    right: 5px;
+}
+.site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-next
+{
+    right: auto;
+    left: 5px;
+}
+.site-ead.section-processo-seletivo.subsection-enem .slick-next:before
+{
+    font-family: FontAwesome;
+
+    content: '\f054';
+}
+.site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-next:before
+{
+    font-family: FontAwesome;
+
+    content: '\f054';
+}
+
+.site-ead.section-processo-seletivo.subsection-enem #lightbox
+{
+    position: fixed;
+    z-index: 30000;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    background: rgba(0, 0, 0, .85);
+}
+.site-ead.section-processo-seletivo.subsection-enem #lightbox img
+{
+    max-width: 940px;
+    margin-top: 15%;
+
+    -webkit-box-shadow: 0 0 25px #111;
+       -moz-box-shadow: 0 0 25px #111;
+            box-shadow: 0 0 25px #111;
+}
+
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem div#info span a {
+    color: #fff;
+}
+.site-ead.section-processo-seletivo.subsection-enem div#info a:hover i,
+#content .site-ead.section-processo-seletivo.subsection-enem .cover-richtext-tile div#info a:hover
+{
+    text-decoration: none;
+
+    color: #ffd51d !important;
+    border-color: #ffd51d;
+    outline: none;
+}
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls:hover input
+{
+    background: #ffb41f;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls input
+{
+    font-weight: bold;
+
+    width: 100%;
+    padding: 10px;
+
+    text-transform: uppercase;
+
+    color: #00519d;
+    border: none !important;
+    background: transparent;
+}
+.site-ead.section-processo-seletivo.subsection-enem.ficouinteressadoform div.formControls
+{
+    font-size: 1.6em;
+
+    width: auto;
+    margin: 0 !important;
+
+    text-align: center;
+
+    border: none !important;
+    background: #ffd51d;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem #content .bt_inscrevase
+{
+    font-size: 1.4em;
+    font-size: 1.7em;
+
+    float: left;
+    float: none;
+
+    width: 34%;
+    margin: 20px auto;
+    margin-top: 2px;
+    padding: 16px 20px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    background: #e1504a;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .bt_inscrevase:hover
+{
+    background: #af2e29
+    !important;
+}
+.site-ead.section-processo-seletivo.subsection-enem .descricaoAzul h1
+{
+    font-size: 2.5em;
+
+    width: 89%;
+    margin: 16px auto;
+    padding-top: 30px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem #content .bt_inscrevase a:hover
+{
+    color: #fff !important;
+}
+
+
+.alinhamento
+{
+    padding-left: 24%;
+
+    text-align: left;
+}
+.site-ead.section-processo-seletivo.subsection-enem .descricaoAzul h1
+{
+    font-size: 2.5em;
+
+    width: 89%;
+    margin: 16px auto;
+    padding-top: 30px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .descricaoAzul
+{
+    height: 790px;
+
+    background: rgba(6,115,170,1);
+    background: -moz-linear-gradient(top, rgba(6,115,170,1) 0%, rgba(7,168,248,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(6,115,170,1)), color-stop(100%, rgba(7,168,248,1)));
+    background: -webkit-linear-gradient(top, rgba(6,115,170,1) 0%, rgba(7,168,248,1) 100%);
+    background: -o-linear-gradient(top, rgba(6,115,170,1) 0%, rgba(7,168,248,1) 100%);
+    background: -ms-linear-gradient(top, rgba(6,115,170,1) 0%, rgba(7,168,248,1) 100%);
+    background: linear-gradient(to bottom, rgba(6,115,170,1) 0%, rgba(7,168,248,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0673aa', endColorstr='#07a8f8', GradientType=0 );
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .informacoes
+{
+    text-align: center;
+
+    color: #ffd51d;
+}
+
+
+.icon-round
+{
+    font-size: 6em !important;
+    line-height: 100px !important;
+
+    display: inline-block;
+
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    border-radius: 100%;
+    background-color: #e1504a;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .informacoes span
+{
+    color: #fff;
+}
+
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem #content .cover-richtext-tile .bt_inscrevase a:link,
+.site-ead.section-processo-seletivo.subsection-enem #content .cover-richtext-tile .bt_inscrevase a:visited
+{
+    font-weight: bold;
+
+    color: #fff !important;
+}
+.site-ead.section-processo-seletivo.subsection-enem span.quali
+{
+    font-size: 1.5em;
+    line-height: 26px;
+
+    position: relative;
+    top: -1px;
+
+    width: 45% !important;
+    margin: 0 auto 20px;
+
+    text-align: center;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .informacoes span
+{
+    display: block;
+
+    width: 100% !important;
+
+    color: #fff;
+}
+
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem #content .tile .incentivosCarousel p {
+    font-size: 1.3em;
+    text-align: center;
+    position: relative;
+    top: -11px;
+}
+.site-ead.section-processo-seletivo.subsection-enem #content .tile h3 {
+    display: block;
+    clear: both;
+    color: #00529c;
+    text-align: center;
+}
+
+
+.site-ead.section-processo-seletivo.subsection-enem #content .tile .incentivosCarousel h3 {
+    display: block;
+    clear: both;
+    color: #00529c;
+    text-align: center;
+    font-size: 3em;
+}
+.site-ead.section-processo-seletivo.subsection-enem .conhecaAMetodista .conhecaHeader h3
+{
+    font-family: verdana;
+    font-size: 1.5em;
+
+    margin: 20px 0 5px;
+
+    text-align: center;
+
+    color: #ffd51d;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .conhecaHeader p
+{
+    font-size: 1.2em;
+
+    position: relative;
+    top: -11px;
+
+    color: #00539c;
+}
+.site-ead.section-processo-seletivo.subsection-enem .descricaoAzul h1
+{
+    font-size: 2.5em;
+
+    width: 89%;
+    margin: 16px auto;
+    padding-top: 30px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem div#atendimento
+{
+    margin-bottom: 35px;
+    padding: 10px 0 25px;
+
+    text-align: center;
+
+    background: #ffd51d;
+}
+
+
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem div#atendimento h2
+{
+    font-size: 2.5em;
+    font-weight: bold;
+
+    color: #00529c;
+}
+
+
+.site-ead.section-processo-seletivo.subsection-enem .faleConosco
+{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .faleConosco a
+{
+    display: block;
+
+    color: #fff !important;
+    background: #e1504a;
+}
+
+
+.site-ead.section-processo-seletivo.subsection-enem .faleConosco a span.faleTexto
+{
+    font-weight: bold;
+
+    display: inline-block;
+
+    width: 83%;
+    padding: 5px 0;
+
+    text-align: center;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .faleConosco a i
+{
+    display: inline-block;
+
+    width: 15%;
+    padding: 9px 0 6px 1px;
+
+    text-align: center;
+
+    background: #dc2018;
+}
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem #content .cover-richtext-tile .faleConosco a:hover
+{
+    background: #dc2018;
+}
+.site-ead.section-processo-seletivo.subsection-enem  #content .cover-richtext-tile .faleConosco a:link,
+.site-ead.section-processo-seletivo.subsection-enem  #content .cover-richtext-tile .faleConosco a:visited
+{
+    text-decoration: none;
+
+    color: #fff !important;
+    border: none !important;
+}
+
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem .conhecaHeader
+{
+    text-align: center;
+}
+.site-ead.section-processo-seletivo.subsection-enem .conhecaHeader p
+{
+    font-size: 1.2em;
+
+    position: relative;
+    top: -11px;
+
+    text-align: center;
+
+    color: #00539c;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .faleConosco a span.faleIcone
+{
+    display: inline-block;
+
+    width: 15%;
+    padding: 5px 0;
+
+    text-align: center;
+
+    background: #dc2018;
+}
+.site-ead.section-processo-seletivo.subsection-enem div#atendimento p
+{
+    font-size: 1.2em;
+
+    color: #00529c;
+}
+
+
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls input
+{
+    font-weight: bold;
+
+    width: 100%;
+    padding: 10px;
+
+    text-transform: uppercase;
+
+    color: #00529c;
+    border: none !important;
+    background: transparent;
+}
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls
+{
+    font-size: 1.6em;
+
+    width: auto;
+    margin: 0 !important;
+
+    text-align: center;
+
+    border: none !important;
+    background: #ffd51d;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.ArchetypesStringWidget,
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.ArchetypesSelectionWidget
+{
+    font-size: 1.2em;
+
+    display: block;
+
+    padding: 5px;
+
+    color: #00529c;
+    border: 1px solid #00529c;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem div#atendimento a
+{
+    color: #00529c !important;
+}
+.site-ead.section-processo-seletivo.subsection-enem #content .cover-richtext-tile #info a:hover
+{
+    text-decoration: none;
+
+    color: #ffd51d !important;
+    border: none !important;
+}
+.site-ead.section-processo-seletivo.subsection-enem.ficouinteressadoform div.formControls
+{
+    font-size: 1.6em;
+
+    width: auto;
+    margin: 0 !important;
+
+    text-align: center;
+
+    border: none !important;
+    background: #ffd51d;
+}
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem .faleConosco a span.faleIcone
+{
+    display: inline-block;
+
+    width: 15%;
+    padding: 5px 0;
+
+    text-align: center;
+
+    background: #dc2018;
+}
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform
+{
+    margin-bottom: 50px;
+    padding: 10px;
+
+    background: #f8f8f8;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform span.required
+{
+    display: none;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform h2
+{
+    font-size: 2.2em;
+
+    letter-spacing: 0;
+    text-transform: uppercase;
+
+    color: #00529c;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem  .ficouinteressadoform h3
+{
+    font-weight: normal;
+
+    letter-spacing: 0;
+
+    color: #00529c;
+}
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.ArchetypesStringWidget *
+{
+    float: right;
+
+    width: auto;
+}
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem .destaque-principal
+{
+    position: relative;
+    top: -29px;
+
+    padding: 20px 0;
+
+    background: #07a7f8;
+}
+
+
+
+
+.site-ead.section-processo-seletivo.subsection-enem div#info i
+{
+    font-size: 55px;
+
+    display: block;
+
+    width: 65px;
+    height: 65px;
+    margin: 20px auto;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 20px 18px 11px;
+
+    -webkit-transition: .5s;
+       -moz-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
+    text-align: center;
+    /* display: table-cell; */
+    vertical-align: middle;
+
+    color: #fff;
+    border: 2px solid #fff;
+    -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+            border-radius: 100%;
+
+         -o-border-radius: 100%;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem div#info span
+{
+    font-size: 1.4em;
+
+    display: block;
+
+    margin: 55px 0 25px 0;
+
+    text-align: center;
+
+    color: #fff !important;
+}
+
+.site-ead.section-processo-seletivo.subsection-enem .descricaoAzul h1
+{
+    font-size: 2.5em;
+
+    width: 89%;
+    margin: 16px auto;
+    padding-top: 30px;
+
+    text-align: center;
+
+    color: #fff;
+}
+@media only screen and (min-width: 768px)
+
+
+{
+
+.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.ArchetypesStringWidget, .site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.ArchetypesSelectionWidget {
+    width: 93%;
+}
+    
+
+.site-ead.section-processo-seletivo.subsection-enem .incentivosCarousel {
+    padding-top: 35px;
+}
+    .site-ead.section-processo-seletivo.subsection-enem div.position-8
+    {
+        margin-left: -49.875%;
+        width: 50%;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .conhecaAMetodista .conhecaHeader h3
+    {
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+
+
+
+    /* setas carousel */
+    .site-ead.section-processo-seletivo.subsection-enem .slick-next
+    {
+        right: -25px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem [dir='rtl'] .slick-next
+    {
+        right: auto;
+        left: -25px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .slider
+    {
+        max-width: 720px;
+        padding-left: 15px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .slick-slide
+    {
+        max-width: 360px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .slick-slide img
+    {
+        width: 290px;
+        height: auto;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .destaque-principal
+    {
+        overflow: hidden;
+
+        height: 280px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .cell.width-16.position-0
+    {
+        margin-top: -36px;
+    }
+
+    div#archetypes-fieldname-curso
+    {
+        width: 67%;
+    }
+    .alinhamento
+    {
+        padding-left: 17%;
+
+        text-align: left;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem div#pfg-fieldwrapper select
+    {
+        width: 78%;
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls {
+    font-size: 1em;
+    position: relative;
+    top: -43px;
+    float: right;
+    width: 25%;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: -2%;
+}
+
+    .site-ead.section-processo-seletivo.subsection-enem .cell.width-16.position-0,
+    .site-ead.section-processo-seletivo.subsection-enem.site-ead.section-processo-seletivo.subsection-enem .cell.width-16.position-0
+    {
+        overflow: hidden;
+
+        max-height: initial;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .descricaoAzul h1
+    {
+        font-size: 3.5em;
+
+        width: 64%;
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem .cover-richtext-tile.tile-content,
+    .site-ead.section-processo-seletivo.subsection-enem .cover-richtext-tile.tile-content
+    {
+        overflow: hidden;
+
+        height: auto !important;
+        margin: 0;
+    }
+
+
+    .site-ead.section-processo-seletivo.subsection-enem div#info
+    {
+        height: 260px !important;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem div#info span
+    {
+        float: left;
+
+        width: 25%;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .destaque-principal
+    {
+        margin-top: 10px !important;
+        margin-bottom: -78px  !important;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem div#footerRights
+    {
+        margin-top: 22px;
+    }
+
+
+
+    .site-ead.section-processo-seletivo.subsection-enem  #content .bt_inscrevase
+    {
+        width: 36%;
+    }
+
+    /*
+.site-ead.section-processo-seletivo.subsection-enem #content .bt_inscrevase {
+    font-size: 1.2em;
+    font-weight: bold;
+    float: right;
+    overflow: hidden;
+    width: 190px;
+    max-height: 38px;
+    margin-top: -37px;
+    margin-right: 0;
+}*/
+
+
+    .site-ead.section-processo-seletivo.subsection-enem #content .bt_inscrevase
+    {
+        font-size: 1.7em;
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem .fa-edit:before,
+    .site-ead.section-processo-seletivo.subsection-enem .fa-pencil-square-o:before
+    {
+        position: relative;
+        top: 2px;
+        left: initial;
+
+        content: '\f044';
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem .fa-check:before
+    {
+        position: relative;
+        left: 0 !important;
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem div#footerRights
+    {
+        padding: 0;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem span.atonline a
+    {
+        position: relative;
+        top: 0;
+
+        padding: 4.4px 34px 3px;
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem .fa.fa-pencil.icon1
+    {
+        padding: 0;
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform
+    {
+        width: 100%;
+        height: 230px;
+        margin-top: 16px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform
+    {
+        width: 100%;
+        height: 230px;
+        margin-top: 16px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .conhecaAMetodista .conhecaHeader h3
+    {
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .informacoes span
+    {
+        position: relative;
+        top: 0;
+
+        display: table-cell;
+
+        width: 25% !important;
+
+        color: #fff;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .informacoes span.quali
+    {
+        display: block;
+
+        width: 70% !important;
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem .fa.fa-pencil.icon1
+    {
+        padding: 0;
+    }
+
+    .site-ead.section-processo-seletivo.subsection-enem .informacoes span
+    {
+        position: relative;
+        top: 0;
+
+        display: table-cell;
+
+        width: 25% !important;
+
+        color: #fff;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .informacoes
+    {
+        position: relative;
+        top: 25px;
+
+        float: left;
+
+        width: 100%;
+
+        text-align: center;
+
+        color: #ffd51d;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .descricaoAzul
+    {
+        height: 550px !important;
+    }
+    
+
+    .site-ead.section-processo-seletivo.subsection-enem #content .bt_inscrevase {
+        font-size: 2em !important;
+        font-weight: bold;
+        overflow: hidden;
+        width: 190px;
+        max-height: 38px;
+        padding: 12px 0px !important;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem div#atendimento
+    {
+        position: relative;
+        top: 26px;
+        left: -6px;
+
+        width: 104%;
+        margin: 0 !important;
+        padding: 66px 0 90px;
+
+        text-align: center;
+
+        background: #ffd51d;
+    }
+}
+@media only screen and (min-width: 480px)
+{
+    .site-ead.section-processo-seletivo.subsection-enem .descricaoAzul
+    {
+        height: 740px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem  #content .bt_inscrevase
+    {
+        width: 36%;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .slick-slide img
+    {
+        width: 420px;
+        max-width: 420px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .slick-slide
+    {
+        max-width: 460px !important;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    .site-ead.section-processo-seletivo.subsection-enem #content .bt_inscrevase {
+    width: 242px;
+}
+    .site-ead.section-processo-seletivo.subsection-enem .descricaoAzul {
+        height: 720px !important;
+}
+    .alinhamento
+    {
+        padding-left: 25%;
+
+        text-align: left;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .descricaoAzul h1
+    {
+        font-size: 5em;
+    }
+
+
+
+    .site-ead.section-processo-seletivo.subsection-enem .slider
+    {
+        max-width: 920px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .slick-slide img
+    {
+        width: 270px;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    .site-ead.section-processo-seletivo.subsection-enem .descricaoAzul
+    {
+        height: 640px !important;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .alinhamento
+    {
+        padding-left: 29% !important;
+
+        text-align: left;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .slider
+    {
+        max-width: 1120px;
+    }
+    .site-ead.section-processo-seletivo.subsection-enem .slick-slide img
+    {
+        width: 250px;
+    }
+}
+
+
+@media only screen and (min-width: 480px)
+{
+}
+
+
+/*contraste*/
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem .descricaoAzul, body.contraste.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform, body.contraste.site-ead.section-processo-seletivo.subsection-enem .destaque-principal {
+    background: #000 !important;
+}
+
+
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enembody.contraste .bt_inscrevase, 
+body.contraste.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls input 
+{
+    background: #000 !important;
+    border: 1px solid #fff !important;
+}
+
+
+
+
+
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem div#atendimento a:hover,
+body.contraste.site-ead.section-processo-seletivo.subsection-enem #content .cover-richtext-tile #info a:hover{
+    color: #666 !important;
+}
+body.contraste.site-ead.section-processo-seletivo.subsection-enem div#atendimento a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+body.contraste.site-ead.section-processo-seletivo.subsection-enembody.contraste .bt_inscrevase:hover,
+body.contraste.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls:hover input{
+    background: #FFF  !important;
+}
+
+
+
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem.contraste #content .bt_inscrevase:hover a,
+body.contraste.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls:hover input{
+    color: #000 !important;
+}
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem.contraste #content .icon-round{
+    background: #fff !important;
+    color: #000 !important;
+}
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.ArchetypesSelectionWidget,
+body.contraste.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.ArchetypesStringWidget{
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
+
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem #content .cover-richtext-tile .faleConosco a{
+    filter: grayscale(1) invert(0) !important;
+    -webkit-filter: grayscale(1) invert(0) !important;
+    -moz-filter: grayscale(1) invert(0) !important;
+    -o-filter: grayscale(1) invert(0) !important;
+    -ms-filter: grayscale(1) invert(0) !important;
+}
+
+
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem #content .bt_inscrevase:hover a {
+    color: #000 !important;
+}
+body.contraste.site-ead.section-processo-seletivo.subsection-enem .bt_inscrevase:hover {
+    background: #fff !important;
+}
+
+
+
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem #content .bt_inscrevase {
+    background: #000;
+    border: 1px solid;
+}
+body.contraste.site-ead.section-processo-seletivo.subsection-enem div#atendimento {
+    background: #000;
+}
+
+
+
+body.contraste.site-ead.section-processo-seletivo.subsection-enem .ficouinteressadoform div.formControls input {
+    color: #fff !important;
+}
+
