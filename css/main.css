@@ -7,6 +7,7 @@
  * - Danilo Sartorelli Barbato
  * - Djeison Possamai
  * - Thiago Garcia Tamosauskas
+ * - Léu Almeida
  *
  * @Referencias
  *
@@ -20,11 +21,8 @@
  * http://jigsaw.w3.org/css-validator/
  */
 
-
-div#controlsite
-{
+div#controlsite {
     overflow: hidden;
-
     height: 1px;
 }
 
@@ -32,128 +30,95 @@ div#controlsite
    Grid Basico
    ========================================================================== */
 
-
 /* Column size */
-#main,
-#main-content,
-#column-one,
-#column-two
-{
+
+#main, #main-content, #column-one, #column-two {
     /*display: block;*/
     /*width: 100%;*/
     padding: 0;
-
     vertical-align: top;
 }
-#main-content
-{
+
+#main-content {
     padding: 0;
 }
 
-body.template-view.portaltype-collective-cover-content #portal-breadcrumbs
-{
+body.template-view.portaltype-collective-cover-content #portal-breadcrumbs {
     display: none;
 }
 
-div#content
-{
+div#content {
     margin: 0;
 }
 
-#column-one
-{
+#column-one {
     padding: 10px;
 }
-.wrapper
-{
+
+.wrapper {
     margin: 0 auto;
     padding: 0;
 }
+
 header#main-header .wrapper {
-     padding: 15px 0 0 0;
+    padding: 15px 0 0 0;
 }
-#portal-breadcrumbs
-{
+
+#portal-breadcrumbs {
     display: none;
 }
 
 /* Grid Bootstrap para Cover */
-.col-md-1,
-.col-md-2,
-.col-md-3,
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-7,
-.col-md-8,
-.col-md-9,
-.col-md-10,
-.col-md-11,
-.col-md-12
-{
-    position: relative;
 
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    position: relative;
     min-height: 1px;
     padding-right: 3%;
     padding-left: 3%;
 }
 
 /* Menu responsivo */
-#btnav i
-{
-    font-size: 2.8em;
 
+#btnav i {
+    font-size: 2.8em;
     /*padding: 5px 0 10px 25px;*/
     margin: 5px 0;
     color: #07a7f8;
 }
 
-#btnav ul
-{
+#btnav ul {
     z-index: 10;
-
     display: NONE;
 }
 
-nav li
-{
+nav li {
     font-size: .8em;
-
     display: block;
-
     width: 100%;
     height: auto;
     padding: 5px 0 5px 10px;
 }
 
-nav li.selected a
-{
+nav li.selected a {
     color: #d8c207;
 }
 
-div:hover#btnav ul#navigationmobile
-{
+div:hover#btnav ul#navigationmobile {
     display: block;
-
     margin-bottom: 5px;
-
     background: #07a7f8;
 }
 
-
-div#btnav ul li a
-{
+div#btnav ul li a {
     padding: 2px 10px;
-
     text-transform: uppercase;
 }
-div:hover#btnav ul li span
-{
+
+div:hover#btnav ul li span {
     padding: 10px;
 }
 
-.barratelefone
-{
+.barratelefone {
     font-size: .9em;
     padding: 0 2%;
     float: left;
@@ -163,31 +128,29 @@ div:hover#btnav ul li span
     background: #07a7f8;
 }
 
-#barrahorizontal .ambientecontato
-{
+#barrahorizontal .ambientecontato {
     display: none;
 }
-.inscrevase a
-{
+
+.inscrevase a {
     font-size: .9em;
     text-transform: uppercase;
     color: #fff !important;
 }
-.inscrevase
-{
+
+.inscrevase {
     float: left;
     width: 35%;
     line-height: 30px;
     text-align: center;
     background: #e1504a;
 }
-.inscrevase:hover
-{
+
+.inscrevase:hover {
     background: #af2e29;
 }
 
-.inscrevase span.inscrevaseicone
-{
+.inscrevase span.inscrevaseicone {
     display: none;
 }
 
@@ -195,47 +158,38 @@ div:hover#btnav ul li span
    Geral
    ========================================================================== */
 
-.visualClear,
-.clear
-{
+.visualClear, .clear {
     clear: both;
 }
 
-html body
-{
-    font-family: Verdana,Tahoma,sans-serif;
+html body {
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: 90%;
 }
 
-a
-{
+a {
     text-decoration: none;
 }
 
-#btnav ul ul
-{
+#btnav ul ul {
     display: none;
 }
 
 /* ==========================================================================
    Cabeçalho do Portal
    ========================================================================== */
-#portal-searchbox
-{
+
+#portal-searchbox {
     display: none;
 }
 
-#portal-searchbox input.searchButton
-{
+#portal-searchbox input.searchButton {
     position: absolute;
     z-index: 10;
     right: 0;
-
     width: 40px;
     height: 30px;
-
     text-indent: -400%;
-
     border: none;
     background-color: rgba(0, 0, 0, 0);
     background-image: none;
@@ -246,8 +200,7 @@ a
     background-size: auto auto;
 }
 
-#portal-searchbox label.hiddenStructure::after
-{
+#portal-searchbox label.hiddenStructure::after {
     font-family: FontAwesome;
     font-size: 1.4em;
     line-height: 1;
@@ -262,25 +215,22 @@ a
     color: #8c959d !important;
 }
 
-#portal-searchbox label.hiddenStructure
-{
+#portal-searchbox label.hiddenStructure {
     display: block;
 }
 
-#portal-searchbox #searchGadget:focus,
-#portal-searchbox #searchGadget
-{
+#portal-searchbox #searchGadget:focus, #portal-searchbox #searchGadget {
     position: relative;
     top: 2px;
     right: 0;
-
     width: 77%;
     padding: 10px 0 10px 15px;
 }
-.searchField
-{
+
+.searchField {
     background: transparent !important;
 }
+
 /* ==========================================================================
    Estilos do page template de error 404
    ========================================================================== */
@@ -288,413 +238,293 @@ a
 /* ==========================================================================
    Rodape do Portal
    ========================================================================== */
-footer
-{
+
+footer {
     clear: both;
 }
-footer a
-{
+
+footer a {
     color: #357dbe !important;
 }
 
-footer a:hover
-{
+footer a:hover {
     text-decoration: underline;
-
     color: #07a7f8;
 }
 
 /* ==========================================================================
    Portlets
    ========================================================================== */
-.portletStaticText img
-{
-    margin-bottom: 20px;
 
+.portletStaticText img {
+    margin-bottom: 20px;
     border-right: 1px solid #98a3bf;
 }
 
-dl.portlet dt
-{
+dl.portlet dt {
     background: transparent;
 }
 
-div#btnavdesktop
-{
+div#btnavdesktop {
     display: none;
 }
-
-
 
 /* ==========================================================================
    Adaptações responsivas - Media Queries
    ========================================================================== */
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px)
-{
-}
+
+@media only screen and (min-width: 320px) {}
+
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px)
-{
-}
+
+@media only screen and (min-width: 480px) {}
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px)
-{
-    div.width-16
-    {
+
+@media only screen and (min-width: 768px) {
+    div.width-16 {
         width: 100%;
     }
-    .cell.width-16.position-0
-    {
+    .cell.width-16.position-0 {
         margin-left: -100%;
     }
-
-    #main-header
-    {
+    #main-header {
         /*margin-top: -3px;
         padding-top: 3px;*/
     }
-
-    div.position-0
-    {
+    div.position-0 {
         margin-top: 9px;
     }
-
-    .colvertical .cover-richtext-tile.tile-content
-    {
+    .colvertical .cover-richtext-tile.tile-content {
         height: inherit !important;
     }
-
-    .cover-basic-tile.tile-content
-    {
+    .cover-basic-tile.tile-content {
         height: 240px;
     }
-
     /* Grid Bootstrap para Cover */
-    .col-md-1,
-    .col-md-2,
-    .col-md-3,
-    .col-md-4,
-    .col-md-5,
-    .col-md-6,
-    .col-md-7,
-    .col-md-8,
-    .col-md-9,
-    .col-md-10,
-    .col-md-11,
-    .col-md-12
-    {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
-
         padding-right: 0;
     }
-    .col-md-12
-    {
+    .col-md-12 {
         width: 100%;
         padding-left: 0;
     }
-    .col-md-11
-    {
+    .col-md-11 {
         width: 91.4166666666667%;
     }
-    .col-md-10
-    {
+    .col-md-10 {
         width: 82.8333333333333%;
     }
-    .col-md-9
-    {
+    .col-md-9 {
         width: 74.25%;
     }
-    .col-md-8
-    {
+    .col-md-8 {
         width: 65.6666666666667%;
     }
-    .col-md-7
-    {
+    .col-md-7 {
         width: 57.0833333333333%;
     }
-    .col-md-6
-    {
+    .col-md-6 {
         width: 48.5%;
     }
-    .col-md-5
-    {
+    .col-md-5 {
         width: 39.9166666666667%;
     }
-    .col-md-4
-    {
+    .col-md-4 {
         width: 31.3333333333333%;
     }
-    .col-md-3
-    {
+    .col-md-3 {
         width: 22.75%;
     }
-    .col-md-2
-    {
+    .col-md-2 {
         width: 14.1666666666667%;
     }
-    .col-md-1
-    {
+    .col-md-1 {
         width: 5.58333333333333%;
     }
-    .column:first-child
-    {
+    .column:first-child {
         padding: 0;
     }
-
-
-    div.width-5
-    {
+    div.width-5 {
         width: 31.333333%;
     }
-
-    div.position-5
-    {
+    div.position-5 {
         margin-left: -65.2%;
     }
-
-    div.position-10
-    {
+    div.position-10 {
         margin-left: -31.375%;
     }
-
-    .footerambienteecontato
-    {
+    .footerambienteecontato {
         display: none;
     }
-
-    div#footerlocal
-    {
+    div#footerlocal {
         display: block !important;
-
         margin-top: 30px;
     }
-
-
-    nav
-    {
+    nav {
         background: transparent !important;
     }
-
-
-    #btnavdesktop li a,
-    #btnavdesktop li a:hover
-    {
+    #btnavdesktop li a, #btnavdesktop li a:hover {
         color: #261d70 !important;
     }
     /**** GRID ****/
     /* Very very simple, semantic and human friendly columns */
     /* Column size */
-    #main-content
-    {
+    #main-content {
         width: auto;
     }
-    #column-one
-    {
+    #column-one {
         width: 20%;
     }
-    #column-two
-    {
+    #column-two {
         width: 20%;
     }
     /* old fashion table layout */
-    #main
-    {
+    #main {
         display: table;
-
         width: 100%;
     }
-    #main-content,
-    #column-one,
-    #column-two
-    {
+    #main-content, #column-one, #column-two {
         display: table-cell;
-
         vertical-align: top;
     }
     /* margin columns */
-    #column-one
-    {
+    #column-one {
         padding: 0 2% 2%;
     }
-    #column-two
-    {
+    #column-two {
         padding: 2% 0 2% 2%;
     }
-    #portal-column-content
-    {
+    #portal-column-content {
         width: 100%;
         margin-left: -100%;
     }
-
-    .wrapper
-    {
+    .wrapper {
         width: 750px;
         padding: 0;
     }
-    
-	#portal-breadcrumbs
-    {
+    #portal-breadcrumbs {
         display: inherit;
-
         margin-top: 10px;
     }
-    body.section-agencia-metodista-de-consultoria #portal-breadcrumbs
-    {
+    body.section-agencia-metodista-de-consultoria #portal-breadcrumbs {
         display: none;
     }
-    #portal-searchbox label.hiddenStructure::after
-    {
+    #portal-searchbox label.hiddenStructure::after {
         color: #8c959d !important;
     }
-    .section-home #portal-breadcrumbs
-    {
+    .section-home #portal-breadcrumbs {
         display: none;
     }
     /* Menu responsivo */
-    #btnav .fa
-    {
+    #btnav .fa {
         display: none;
     }
-    div#btnavdesktop
-    {
-    position: relative;
-    width: 82%;
+    div#btnavdesktop {
+        position: relative;
+        width: 82%;
         float: left;
-    display: inline-block;
-    border: 1px solid #e9f0f3;
+        display: inline-block;
+        border: 1px solid #e9f0f3;
     }
-    #btnavdesktop ul
-    {
+    #btnavdesktop ul {
         display: block;
-
+        padding: 6px 0px;
     }
-    #btnavdesktop ul ul
-    {
+    #btnavdesktop ul ul {
         display: none;
     }
-    #btnavdesktop i
-    {
+    #btnavdesktop i {
         display: inline-table;
-
         padding-top: 0;
     }
-    ul.submenu
-    {
+    ul.submenu {
         display: inline-table;
     }
-    nav li
-    {
+    nav li {
         display: inline;
-
         width: auto;
         padding: 0 12px;
-
         border-right: 1px solid #98a3bf;
     }
-    #btnavdesktop ul li:last-child
-    {
+    #btnavdesktop ul li:last-child {
         border-right: none;
     }
-    div#btnavdesktop ul li ul
-    {
+    div#btnavdesktop ul li ul {
         position: absolute;
         z-index: 10;
         top: 39px;
-
         margin-left: -11px;
         padding: 10px;
-
         border-right: 1px solid #e9f0f3;
         border-bottom: 5px solid #e1504a;
         border-left: 1px solid #e9f0f3;
         background: #fff;
         margin-top: -1px;
     }
-    
-    div#btnavdesktop ul li:hover ul
-    {
+    div#btnavdesktop ul li:hover ul {
         display: block;
     }
-    
     #portaltab-graduacao {
-    color: #8c959d !important;
-    position: relative;
-    left: -3%;
+        color: #8c959d !important;
+        position: relative;
+        left: -3%;
     }
-
-    #menupolos .polosmenuifno
-    {
+    #menupolos .polosmenuifno {
         font-weight: bold;
-
         margin-top: 10px;
         padding-top: 10px;
-
         border-top: 1px solid #e9f0f3;
     }
-    ul#menumodalidades
-    {
+    ul#menumodalidades {
         min-width: 170px;
     }
-
-    nav li li
-    {
+    nav li li {
         border: none;
     }
-    div#btnavdesktop ul li a
-    {
+    div#btnavdesktop ul li a {
         padding: 10px 0 2px 0 !important;
     }
-    div#btnavdesktop ul li span
-    {
+    div#btnavdesktop ul li span {
         padding: 10px !important;
     }
-
-    div#btnavdesktop .sub-menu li a
-    {
+    div#btnavdesktop .sub-menu li a {
         padding: 0 !important;
     }
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px)
-{
-    #video iframe
-    {
+
+@media only screen and (min-width: 992px) {
+    #video iframe {
         height: 305px;
     }
-    .wrapper
-    {
+    .wrapper {
         width: 970px;
     }
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px)
-{
-    .wrapper
-    {
+
+@media only screen and (min-width: 1200px) {
+    .wrapper {
         width: 1160px;
     }
 }
 
-@media only screen and (max-width : 767px)
-{
+@media only screen and (max-width: 767px) {
     /* grid portal antigo */
-    div.cell
-    {
+    div.cell {
         display: block;
         float: none;
-
         width: 100%;
         margin-bottom: 4%;
         margin-left: -100%;
     }
-
-    .row
-    {
+    .row {
         clear: both;
     }
 }
