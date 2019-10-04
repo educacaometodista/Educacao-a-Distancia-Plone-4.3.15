@@ -36,6 +36,7 @@ body.template-inscricoeseadenem #content-core .inscrevase {
 
 body.template-inscricoeseadenem #content-core .inscrevase a {
     padding: 0;
+    display: block;
 }
 
 body.template-inscricoeseadenem #content-core .inscrevase span.inscrevaseicone {
@@ -70,13 +71,19 @@ body.template-document_view.site-ead.section-graduacao-a-distancia.subsection-po
 }
 
 #content .inscrevase.botaointernocurso {
-    width: 100%;
+    width: 200px;
     height: 35px;
 }
 
+#content .inscrevase.botaointernocurso:before {
+    width: 20px;
+    color: blue;
+}
+
 #content .inscrevase.botaointernocurso a {
-    padding: 10px 20px;
     border: none;
+    display: block;
+    text-align: center;
 }
 
 #main-content #instituicao, #main-content #modalidades, #main-content input#modalidade {
@@ -739,7 +746,6 @@ h2.tituloCapa {
 }
 
 .ficouinteressadoform {
-    padding: 10px;
     background: #f8f8f8;
 }
 
@@ -758,11 +764,17 @@ h2.tituloCapa {
     font-weight: normal;
     letter-spacing: 0;
     color: #357dbe;
+    margin-bottom: 7px;
 }
 
 .ficouinteressadoform div.ArchetypesStringWidget * {
     float: right;
     width: auto;
+}
+
+.ficouinteressadoform div.ArchetypesStringWidget, .ficouinteressadoform div.ArchetypesSelectionWidget, .ficouinteressadoform div.formControls {
+    border-radius: 4px;
+    padding: 7px 10px;
 }
 
 .ficouinteressadoform div.formControls {
@@ -838,9 +850,9 @@ h2.tituloCapa {
 
 .empresasconveniadas, #content .empresasconveniadas {
     font-size: 1.7em;
-    width: 250px;
+    width: 100%;
     min-height: 150px;
-    margin: 10px auto;
+    margin: 10px 0;
     text-align: center;
     background: url('./img/pattern-empresas.jpg');
 }
@@ -1003,8 +1015,7 @@ span.imagemDestaque {
 }
 
 #content .inscrevase.botaointernocurso a:hover {
-    text-decoration: none !important;
-    color: #fff !important;
+    text-decoration: none;
 }
 
 span.imagemDestaque img {
@@ -1153,7 +1164,7 @@ body.section-pos-graduacao-a-distancia #barrahorizontal .inscrevase, body.subsec
 }
 
 body.subsection-cursos div h3 img.image-inline {
-    max-width: 100%;
+    min-width: 100%;
 }
 
 body.section-pos-graduacao-a-distancia #barrahorizontal div#btnavdesktop, body.section-cursos-de-curta-duracao-a-distancia #barrahorizontal div#btnavdesktop {
@@ -1344,7 +1355,7 @@ body.template-document_view.section-graduacao-a-distancia.subsection-cursos-curs
     }
     .textoPolo {
         float: right;
-        width: 22%;
+        width: 200px;
     }
     .redes span {
         font-weight: bold;
@@ -1530,7 +1541,6 @@ body.template-document_view.section-graduacao-a-distancia.subsection-cursos-curs
         color: #07a7f8 !important;
     }
     #btnavdesktop li:hover {
-        padding: 8px 5px;
         border-bottom: 2px solid #e1504a;
     }
     #btnavdesktop .sub-menu li a:hover {
@@ -1588,11 +1598,11 @@ body.template-document_view.section-graduacao-a-distancia.subsection-cursos-curs
     div#portal-searchbox {
         position: relative;
         border: solid 1px #cacaca;
+        border-radius: 5px;
         display: block;
         width: 280px;
-        color: #8c959d !important;
-        margin: 30px 0;
-        background: transparent;
+        height: 40px;
+        background: #d1d1d1;
     }
     .searchButton {
         color: #000;
@@ -1603,8 +1613,9 @@ body.template-document_view.section-graduacao-a-distancia.subsection-cursos-curs
         padding-right: 10px;
     }
     #portal-searchbox input#searchGadget, #portal-searchbox input#nolivesearchGadget {
-        color: #8c959d !important;
-        padding: 7px;
+        color: #4c5054 !important;
+        padding: 10px;
+        font-size: 14px;
         width: 210px;
         border: none;
     }
@@ -1651,9 +1662,9 @@ body.template-document_view.section-graduacao-a-distancia.subsection-cursos-curs
     #btnavdesktop ul li {
         padding: 7px;
     }
-    #btnavdesktop li:hover {
+    /* #btnavdesktop li:hover {
         padding: 8px 7px;
-    }
+    } */
     .destaque-principal {
         height: 255px;
     }
